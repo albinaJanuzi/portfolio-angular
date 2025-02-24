@@ -1,0 +1,157 @@
+.my-projects-content {
+    background-color: #262E34;
+    font-family: 'Josefin Sans';
+    color: white;
+    padding: 100px 0;
+   
+}
+
+h1 {
+    color: #89BCD9;
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size:28px;
+    font-weight: 400;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 120px;
+
+ 
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        
+
+        li {
+            cursor: pointer;
+            color: #89BCD9;
+            padding: 10px 20px;
+            transition: 0.3s;
+            font-size: 36px;
+            padding-top:30px;
+            padding-bottom:30px;
+
+            &.active, &:hover {
+                background-color: #2D3840;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                color: white;
+            }
+        }
+    }
+}
+
+section {
+    display: none; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #2D3840;
+    width: 100%;
+    margin: auto;
+
+    &.active {
+        display: block; 
+    }
+}
+.projekt-info-txt{
+    max-width:600px;
+    padding-left: 78px;
+   }
+
+   .projekt-info-txt p{
+    font-size:18px;
+    font-weight: 400;
+   }
+.projekt-info{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+
+
+.info-content{
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+
+.info-content-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.technologies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projekt-bild p{
+text-align: center;
+}
+
+.button-position{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top:20px;
+}
+
+.github-button{
+    background: transparent;
+    border: 2px solid #89BCD9;
+    padding: 13px 32px;
+    font-size: 16px;
+    color: #89BCD9;
+    border-radius: 30px;
+}
+
+.github-button:hover{
+    background-color: #3F464A;
+}
+
+.button-test{
+    background-color: #89BCD9;
+    border: none;
+    padding: 13px 32px;
+    font-size: 16px;
+    color: #262E34;
+    border-radius: 30px;
+}
+.button-test:hover{
+    background-color: #F8F5EC;
+}
+
+button{
+    font-family: 'Josefin Sans';
+    font-size:18px;
+    font-weight: 400;
+}
+

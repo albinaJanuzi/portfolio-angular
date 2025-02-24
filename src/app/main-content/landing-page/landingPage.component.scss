@@ -1,0 +1,113 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: #262E34;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.social-media {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-media img:hover {
+    background-color: #3F464A;
+    border-radius:100%
+}
+
+.main-content { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 29px;
+    gap:30px;
+    
+    h1{
+        font-family: 'Anta';
+        font-size: 88px;
+        font-weight: 400;
+    }
+
+    h2{
+        font-family: 'Josefin Sans';
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .profile-image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-image: url("../../../../public/assets/img/landing-page/default-background.svg"); 
+        background-size: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: opacity 0.5s ease-in-out;
+    
+        &:hover {
+            background-image: url("../../../../public/assets/img/landing-page/hover-background.svg");
+        }
+
+        .person {
+            position: relative;
+            z-index: 1;
+            height: 700px;
+            border-radius: 100%;
+            padding-bottom: 78px;
+        }
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top:100px;
+    }
+
+    .logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:66px;
+        height:73px;
+
+        .logo-default {
+            display: block; 
+        }
+
+        .logo-hover {
+            display: none; 
+        }
+
+        &:hover {
+            .logo-default {
+                display: none; 
+            }
+
+            .logo-hover {
+                display: block; 
+            }
+        }
+    }
+
+    .arrow{
+    padding-top:150px;
+    img:hover{
+        background-color: #3F464A;
+        border-radius: 30px;
+      }
+    }
+
+
+}
+

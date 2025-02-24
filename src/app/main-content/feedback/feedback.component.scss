@@ -1,0 +1,41 @@
+section{
+    background-color: #262E34;
+    font-family: 'Josefin Sans';
+   color: white;;
+    
+  
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    color: #89BCD9;
+}
+
+.txt-container{
+    background-image: url('../../../../public/assets/img/feedback-img/reference-shape.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 430px; 
+    height:600px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+    
+    
+}
+.txt-container p{
+    width:260px;
+    font-size:18px;
+    height:100px;
+}
+.container-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}

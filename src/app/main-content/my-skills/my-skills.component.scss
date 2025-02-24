@@ -1,0 +1,78 @@
+section {
+    background-color: #262E34;
+    font-family: 'Josefin Sans';
+    color: white;
+}
+
+h1 {
+    color: #89BCD9;
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Anta', sans-serif;
+    
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ 
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.skill img {
+    width: 60px;
+    height: auto;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #89BCD9;
+}
+
+.learning-container {
+    background-image: url('../../../../public/assets/img/my-skills-img/default-ellipse.svg'); 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px; 
+    height:391px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.learning-container:hover{
+    background-image: url('../../../../public/assets/img/my-skills-img/hover-ellipse.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.learning-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learning-icons {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.learning-text {
+    font-size: 18px;
+    color: #89BCD9;
+    width: 56%;
+}

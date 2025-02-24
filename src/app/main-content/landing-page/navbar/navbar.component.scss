@@ -1,0 +1,43 @@
+.navbar-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #89BCD9;
+    height: 104px;
+    width:100%;
+    font-family: 'Josefin Sans';
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    a {
+      text-decoration: none;
+      padding: 20px 20px;
+      color: #262E34;
+      font-size: 26px;
+      
+      &.active {
+        background-image: url('../../../../../public/assets/img/landing-page/active-link.svg');
+        background-repeat: no-repeat;
+        color: white;
+        background-position: center;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+
+
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
