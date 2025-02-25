@@ -1,6 +1,9 @@
 {
     "why-me": {
-      "hello": "hello {{name}}",
-      "title": "English"
+      "title": "Why me",
+      "i-am": "I am",
+      "located": "located in Bonn",
+      "coding": "Coding is more than just writing lines of code—it's about solving problems, creating something from nothing.It challenges me to think analytically, stay persistent, and turn ideas into reality.",
+      "button":"Let´s talk"
     }
   }
