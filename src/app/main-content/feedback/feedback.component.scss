@@ -1,10 +1,8 @@
-section{
-    background-color: #262E34;
-    font-family: 'Josefin Sans';
-   color: white;;
-    
-  
-}
+ section{
+     background-color: #262E34;
+     font-family: 'Josefin Sans';
+    color: white;;
+ }
 
 h2{
     font-size: 32px;
@@ -14,9 +12,6 @@ h2{
 }
 
 .txt-container{
-    background-image: url('../../../../public/assets/img/feedback-img/reference-shape.svg');
-    background-position: center;
-    background-repeat: no-repeat;
     width: 430px; 
     height:600px; 
     display: flex;
@@ -24,15 +19,29 @@ h2{
     align-items: center;
     justify-content: center;
     text-align: center;
- 
-    
-    
 }
+
+.txt-container:hover img {
+    content: url('../../../../public/assets/img/feedback-img/hover-reference-shape.svg');
+}
+    
+.txt-position{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 50px;
+    gap:8px;
+}
+
 .txt-container p{
     width:260px;
     font-size:18px;
     height:100px;
+    
 }
+
 .container-position{
     display: flex;
     justify-content: center;
