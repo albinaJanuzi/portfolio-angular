@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -15,4 +16,9 @@ export class NavbarComponent {
   setActive(link: string) {
     this.activeLink = link;
   }
+  constructor(private translate: TranslateService) {}
+  changeLanguage(language: string){
+    this.translate.use(language);
+  }
+ 
 }

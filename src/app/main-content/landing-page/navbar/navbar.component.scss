@@ -6,6 +6,7 @@
     height: 104px;
     width:100%;
     font-family: 'Josefin Sans';
+   
 }
 
 .navbar-links {
@@ -31,7 +32,18 @@
     }
   }
 
+button{
+  border:none;
+  color: #262E34;
+  background-color: #89BCD9;
+  font-size: 18px;
+  font-family: 'Josefin Sans';
+  font-weight: 400;
 
+  &:hover {
+    color: white;
+  }
+}
 
 
 .language{
