@@ -8,5 +8,5 @@ import {TranslatePipe, TranslateDirective} from "@ngx-translate/core";
   styleUrl: './why-me.component.scss'
 })
 export class WhyMeComponent {
- name = "Albina";
+
 }
