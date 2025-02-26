@@ -100,7 +100,7 @@ section {
 .row{
     display: flex;
     justify-content: space-around;
-
+    padding-left:100px;
 
 }
 
@@ -155,3 +155,39 @@ button{
     font-weight: 400;
 }
 
+
+@media (max-width:1080px){
+    .projekt-info-txt{
+        p{
+            font-size:16px;
+        }
+    }
+   
+    h3{
+        font-size:18px;
+    }
+    nav{
+        padding-left:0px;
+        ul{
+            li{
+                font-size: 18px;
+            }
+        }
+        
+    }
+    .row{
+        padding:0px;
+        flex-direction: column-reverse;
+    }
+
+    .img-position{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-content-container{
+        justify-content: center;
+        align-items: center;
+    }
+ }
