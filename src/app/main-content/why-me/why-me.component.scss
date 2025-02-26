@@ -3,6 +3,7 @@ section {
     font-family: 'Josefin Sans';
     color: white;
     padding: 100px 0;
+    padding-top:0px;
    
 }
 
@@ -84,9 +85,18 @@ a{
 
 
 @media (max-width:930px){
+    section{
+        padding-top:50px;
+    }
     .whyme-content{
         flex-direction: column;
+        padding-left:20px;
+        padding-right: 20px;
     }
+    h1{
+        font-size: 32px;
+    }
+    
     span {
         font-size: 18px;
     }
