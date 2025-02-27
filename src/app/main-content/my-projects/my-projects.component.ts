@@ -7,7 +7,7 @@ import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translat
   styleUrl: './my-projects.component.scss'
 })
 export class MyProjectsComponent {
-  activeSection: string = 'da-bubble'; // Start-Sektion
+  activeSection: string = 'el-polloLoco'; // Start-Sektion
 
   setActiveSection(section: string) {
     this.activeSection = section;
@@ -16,6 +16,14 @@ export class MyProjectsComponent {
   constructor(private translate: TranslateService) {}
   changeLanguage(language: string){
     this.translate.use(language);
+  }
+
+  goToLiveTest() {
+    window.location.href = 'http://albina-januzi.de/elPolloLoco/';
+  }
+
+  goToGitHub(){
+    window.location.href = 'https://github.com/albinaJanuzi/elPolloLoco';
   }
 
 }

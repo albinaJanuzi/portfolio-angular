@@ -45,6 +45,19 @@
       "duration":"Duration: 3 weeks",
       "about":"About the project",
       "organised":"How I have organised my work process",
-      "experience":"My group work experience"
+      "experience":"My group work experience",
+      "learn":"What I have learnt",
+      "elPolloLoco-about":"A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the final boss Chicken and the small chickens.",
+      "elPolloLoco-organised":"To develop this jump-and-run game, I followed a structured and organized workflow. I used an object-oriented approach to keep the code clean, modular, and easy to maintain. Each game element, such as the player, enemies, and collectibles, was implemented as separate classes to ensure reusability. I also followed a step-by-step development process, starting with the core mechanics, then adding animations, collision detection, and game logic. Regular testing and debugging helped me refine the gameplay and fix issues efficiently. This structured approach ensured a smooth and well-organized development process.",
+      "elPolloLoco-learn":"During the development of this game, I gained valuable experience in object-oriented programming and game development. I learned how to structure clean and maintainable code, implement animations, and handle collision detection effectively. Debugging and testing taught me the importance of refining gameplay for a smooth user experience. Overall, this project helped me improve my coding skills and problem-solving abilities."
+
+
+
+
+
+
+
+
+
     }
   }

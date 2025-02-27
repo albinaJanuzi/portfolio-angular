@@ -39,6 +39,10 @@
   "duration": "Dauer: 3 Wochen",
   "about": "Über das Projekt",
   "organised": "So habe ich meinen Arbeitsprozess organisiert",
-  "experience": "Meine Erfahrung in der Gruppenarbeit"
+  "experience": "Meine Erfahrung in der Gruppenarbeit",
+  "learn":"Was ich gelernt habe",
+  "elPolloLoco-about": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Endboss Chicken und die Small Chickens zu kämpfen.",
+  "elPolloLoco-organised":"Um dieses Jump-and-Run-Spiel zu entwickeln, habe ich einen strukturierten und organisierten Workflow verfolgt. Ich habe einen objektorientierten Ansatz verwendet, um den Code sauber, modular und leicht wartbar zu halten. Jedes Spielelement, wie der Spieler, die Gegner und die sammelbaren Objekte, wurde als eigene Klasse implementiert, um Wiederverwendbarkeit zu gewährleisten. Zudem habe ich einen schrittweisen Entwicklungsprozess befolgt, beginnend mit den Kernmechaniken, gefolgt von Animationen, Kollisionserkennung und Spiel-Logik. Durch regelmäßiges Testen und Debuggen konnte ich das Gameplay optimieren und Fehler effizient beheben. Dieser strukturierte Ansatz sorgte für einen reibungslosen und gut organisierten Entwicklungsprozess.",
+  "elPolloLoco-learn":"Während der Entwicklung dieses Spiels habe ich wertvolle Erfahrungen in objektorientierter Programmierung und Spieleentwicklung gesammelt. Ich habe gelernt, wie man sauberen und wartbaren Code strukturiert, Animationen implementiert und Kollisionserkennung effektiv umsetzt. Durch Debugging und Testing habe ich die Bedeutung der Feinabstimmung des Gameplays für ein reibungsloses Spielerlebnis erkannt. Insgesamt hat dieses Projekt meine Programmierfähigkeiten und mein Problemlösungsvermögen verbessert."
 }
 }

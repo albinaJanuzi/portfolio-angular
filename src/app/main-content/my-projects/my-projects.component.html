@@ -3,119 +3,128 @@
 
     <nav>
         <ul>
-            <li (click)="setActiveSection('da-bubble')" [class.active]="activeSection === 'da-bubble'">1. DA Bubble</li>
-            <li (click)="setActiveSection('sharkie')" [class.active]="activeSection === 'sharkie'">2. Sharkie</li>
-            <li (click)="setActiveSection('join')" [class.active]="activeSection === 'join'">3. Join</li>
-            <li (click)="setActiveSection('ongoing-project')" [class.active]="activeSection === 'ongoing-project'">4.
-                Ongoing Project</li>
+            <li (click)="setActiveSection('el-polloLoco')" [class.active]="activeSection === 'el-polloLoco'">1. El pollo Loco
+            </li>
+            <li (click)="setActiveSection('join')" [class.active]="activeSection === 'join'">2. Join</li>
+            <li (click)="setActiveSection('ongoing-project')" [class.active]="activeSection === 'ongoing-project'">
+                4.Ongoing Project</li>
         </ul>
     </nav>
 
     <div class="sections">
-        <section [class.active]="activeSection === 'da-bubble'">
+        <section [class.active]="activeSection === 'el-polloLoco'">
             <div class="row">
-            
-            <div class="info-content-container">
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    
-                    <h3>{{ 'my-projects.about' | translate }}</h3>
-                    <p>{{ 'my-projects.duration' | translate }}</p>
+
+                <div class="info-content-container">
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+
+                            <h3>{{ 'my-projects.about' | translate }}</h3>
+                            <p>{{ 'my-projects.duration' | translate }}</p>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-about' | translate }}</p>
+                        </div>
+                    </div>
+
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+                            <h3>{{ 'my-projects.organised' | translate }}</h3>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-organised' | translate }}</p>
+                        </div>
+
+                    </div>
+
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+                            <h3>{{ 'my-projects.learn' | translate }}</h3>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-learn' | translate }}</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
+                <div class="projekt-bild">
+                    <p>Technologies</p>
+                    <div class="technologies">
+                        <img src="assets/img/my-projects-img/technologie1.svg" alt="">
+                        <img src="assets/img/my-projects-img/technologie2.svg" alt="">
+                        <img src="assets/img/my-projects-img/technologie3.svg" alt="">
+                    </div>
+                    <div class="img-position"> <img src="assets/img/my-projects-img/elPolloLoco.svg"
+                            alt="Project Screenshot"></div>
+
+                    <div class="button-position">
+                        <button (click)="goToLiveTest()" class="button-test">Live Test</button>
+                        <button (click)="goToGitHub()"  class="github-button">Git hub</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    <h3>{{ 'my-projects.organised' | translate }}</h3>
-                </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
-                </div>
-                
-            </div>
-
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    <h3>{{ 'my-projects.experience' | translate }}</h3>
-                </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
-                </div>
-            </div>
-        </div>
-        <div class="projekt-bild">
-            <p>Technologies</p>
-            <div class="technologies" >
-                <img src="assets/img/my-projects-img/technologie1.svg" alt="">
-                <img src="assets/img/my-projects-img/technologie2.svg" alt="">
-                <img src="assets/img/my-projects-img/technologie3.svg" alt="">
-            </div>
-            <div class="img-position"> <img src="assets/img/my-projects-img/project-1.svg" alt="Project Screenshot"></div>
-
-            <div class="button-position">
-                <button class="button-test">Live Test</button>
-                <button class="github-button">Git hub</button>
-            </div>
-        </div>
-    </div>
-  
-        </section>
-
-        <section [class.active]="activeSection === 'sharkie'">
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    <h3>About the Project</h3>
-                    <p>Duration: 3 Weeks</p>
-                </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
-                </div>
-            </div>
-
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    <h3>SHARKIE</h3>
-                </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
-                </div>
-            </div>
-
-            <div class="info-content">
-                <div class="projekt-info">
-                    <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
-                    <h3>About the Project</h3>
-                </div>
-                <div class="projekt-info-txt">
-                    <p>This App is a Slack Clone App.
-                        It revolutionizes team communication and collaboration with its intuitive interface, real-time
-                        messaging, and robust channel organization.</p>
-                </div>
-            </div>
         </section>
 
         <section [class.active]="activeSection === 'join'">
-            <h3>Join</h3>
-            <p>Ein Task-Management-Tool für Teamwork und Organisation.</p>
+            <div class="row">
+
+                <div class="info-content-container">
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+
+                            <h3>{{ 'my-projects.about' | translate }}</h3>
+                            <p>{{ 'my-projects.duration' | translate }}</p>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-about' | translate }}</p>
+                        </div>
+                    </div>
+
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+                            <h3>{{ 'my-projects.organised' | translate }}</h3>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-organised' | translate }}</p>
+                        </div>
+
+                    </div>
+
+                    <div class="info-content">
+                        <div class="projekt-info">
+                            <img src="assets/img/my-projects-img/ellipse-small.svg" alt="">
+                            <h3>{{ 'my-projects.learn' | translate }}</h3>
+                        </div>
+                        <div class="projekt-info-txt">
+                            <p>{{ 'my-projects.elPolloLoco-learn' | translate }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projekt-bild">
+                    <p>Technologies</p>
+                    <div class="technologies">
+                        <img src="assets/img/my-projects-img/technologie1.svg" alt="">
+                        <img src="assets/img/my-projects-img/technologie2.svg" alt="">
+                        <img src="assets/img/my-projects-img/technologie3.svg" alt="">
+                    </div>
+                    <div class="img-position"> <img src="assets/img/my-projects-img/join.svg"
+                            alt="Project Screenshot"></div>
+
+                    <div class="button-position">
+                        <button (click)="goToLiveTest()" class="button-test">Live Test</button>
+                        <button (click)="goToGitHub()"  class="github-button">Git hub</button>
+                    </div>
+                </div>
+            </div>
+
         </section>
+
+
 
         <section [class.active]="activeSection === 'ongoing-project'">
             <h3>Ongoing Project</h3>
