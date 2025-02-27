@@ -22,7 +22,7 @@ export class ContactComponent {
       if (!this.formData.agreed) {
         this.checkboxState = 'error'; // Fehleranzeige für Checkbox
       }
-      return; // Formular wird nicht abgeschickt
+      return; // Email wird nicht abgeschickt
     }
 
     console.log('Form Data:', this.formData);
