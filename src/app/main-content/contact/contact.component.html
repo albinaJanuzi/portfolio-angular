@@ -1,7 +1,7 @@
 <section class="contact-section">
     <div class="title-img">
         <div>
-            <h1>Contact me</h1>
+            <h1>{{ 'contact.title' | translate }}</h1>
         </div>
         <div class="arrow-up">
             <a href="#landingPage"><img src="assets/img/contact/arrowUp.svg" alt="Arrow Up"></a>
@@ -9,10 +9,7 @@
     </div>
 
     <div class="contact-container">
-        <p class="contact-description">
-            Ich bin immer offen für spannende Jobangebote und neue Möglichkeiten, bei denen ich meine Fähigkeiten einbringen kann.
-            Mit meiner Erfahrung und meiner Leidenschaft für durchdachte, benutzerfreundliche Anwendungen bringe ich echten Mehrwert in jedes Projekt. Lassen Sie uns gemeinsam etwas Großartiges schaffen!
-        </p>
+        <p class="contact-description">{{ 'contact.text' | translate }}</p>
 
         <div class="contact-info">
             <div class="contact-item">
@@ -32,18 +29,18 @@
         <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" class="contact-form" novalidate>
             <div class="input-group">
                 <div class="input-container">
-                    <p [ngClass]="{'input-error-title': name.invalid && (name.touched || isSubmitted)}">Your Name</p>
+                    <p [ngClass]="{'input-error-title': name.invalid && (name.touched || isSubmitted)}">{{ 'contact.name' | translate }}</p>
                     <input type="text" name="name" [(ngModel)]="formData.name" required #name="ngModel"
                     [ngClass]="{'input-error': (name.invalid && (name.touched || isSubmitted))}">
                 </div>
                 <div class="input-container">
-                    <p [ngClass]="{'input-error-title': email.invalid && (email.touched || isSubmitted)}">Your Email</p>
+                    <p [ngClass]="{'input-error-title': email.invalid && (email.touched || isSubmitted)}">{{ 'contact.email' | translate }}</p>
                     <input type="email" name="email" [(ngModel)]="formData.email" required #email="ngModel"
                     [ngClass]="{'input-error': (email.invalid && (email.touched || isSubmitted))}">
                 </div>
             </div>
             <div class="text-area-title">
-                <p [ngClass]="{'input-error-title': message.invalid && (message.touched || isSubmitted)}">Your Message</p>
+                <p [ngClass]="{'input-error-title': message.invalid && (message.touched || isSubmitted)}">{{ 'contact.message' | translate }}</p>
                 <textarea name="message" [(ngModel)]="formData.message" required #message="ngModel"
   [ngClass]="{'input-error': (message.invalid && (message.touched || isSubmitted))}"></textarea>
                     
@@ -57,13 +54,12 @@
                         <img class="checkbox-error" src="assets/img/contact/checkbox-red.svg" alt="Error Checkbox"
                              [style.display]="checkboxState === 'error' ? 'block' : 'none'"> <!-- Rotes Checkbox-Bild -->
                         
-                        <label for="privacy-policy">I've read the <a href="#">privacy policy</a> and agree to the processing
-                          of my data as outlined.</label>
+                        <label for="privacy-policy">{{ 'contact.read' | translate }} <a href="#">{{ 'contact.privacy' | translate }} </a>{{ 'contact.agree' | translate }}</label>
                       </div>
                       
 
                 <div class="button-position">
-                    <button type="submit">Send</button>
+                    <button type="submit">{{ 'contact.button' | translate }}</button>
                 </div>
             </div>
         </form>

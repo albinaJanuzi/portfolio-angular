@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { NgForm } from '@angular/forms';
+import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
 @Component({
   selector: 'app-contact',
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, TranslatePipe, TranslateDirective],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })
@@ -43,6 +44,11 @@ export class ContactComponent {
     if (this.checkboxState !== 'checked' && this.checkboxState !== 'error') {
       this.checkboxState = 'default';
     }
+  }
+
+  constructor(private translate: TranslateService) {}
+  changeLanguage(language: string){
+    this.translate.use(language);
   }
 }
 

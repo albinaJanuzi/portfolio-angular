@@ -26,5 +26,25 @@
 
     "feedback":{
       "title":"Need a teamplayer? Here what my colleagues said about me"
+    },
+
+    "contact":{
+      "title": "Contact me",
+      "text":"I am always open to exciting job offers and new opportunities where I can contribute my skills. With my experience and passion for well-thought-out, user-friendly applications, I bring real value to any project. Let's create something great together!",
+      "name":"Your Name",
+      "email":"Your Email",
+      "message":"Your Message",
+      "read":"I've read the",
+      "privacy":"privacy policy ",
+      "agree":"and agree to the processing of my data as outlined.",
+      "button":"Send"
+    },
+
+    "my-projects":{
+      "title":"My Projects",
+      "duration":"Duration: 3 weeks",
+      "about":"About the project",
+      "organised":"How I have organised my work process",
+      "experience":"My group work experience"
     }
   }

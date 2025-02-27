@@ -1,34 +1,44 @@
 {
-    "why-me": {
-      "title": "Wieso ich",
-      "i-am": "Ich befinde",
-      "located":"mich in Bonn",
-      "coding":"Coding ist mehr als nur das Schreiben von Code – es geht darum, Probleme zu lösen und etwas aus dem Nichts zu erschaffen. Es fordert mich heraus, analytisch zu denken, dranzubleiben und Ideen in die Realität umzusetzen.",
-      "button":"Lass uns reden"
-    },
-
-   
-      "landing-page":{
-        "title": "Frontend Entwickler"
-      },
-
-      "navbar":{
-      "whyme": "Warum ich",
-      "skills": "Fähigkeiten",
-      "projects": "Projekte",
-      "contact": "Kontakt"
-    },
-
-    "my-skills":{
-      "title": "Meine Fähigkeiten",
-      "learning":"Ich lerne derzeit ...",
-      "text":"Ich bin motiviert, meine Fähigkeiten zu verbessern, innovative Lösungen zu erkunden und mit neuen Technologien auf dem neuesten Stand zu bleiben. Derzeit lerne ich React und Vue.js und wende mein Wissen in Projekten an."
-    },
-
-    "feedback":{
-      "title":"Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich gesagt haben:"
-    }
-    
-
-
-  }
+  "why-me": {
+    "title": "Wieso ich",
+    "i-am": "Ich befinde",
+    "located": "mich in Bonn",
+    "coding": "Coding ist mehr als nur das Schreiben von Code – es geht darum, Probleme zu lösen und etwas aus dem Nichts zu erschaffen. Es fordert mich heraus, analytisch zu denken, dranzubleiben und Ideen in die Realität umzusetzen.",
+    "button": "Lass uns reden"
+  },
+  "landing-page": {
+    "title": "Frontend Entwickler"
+  },
+  "navbar": {
+    "whyme": "Warum ich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "my-skills": {
+    "title": "Meine Fähigkeiten",
+    "learning": "Ich lerne derzeit ...",
+    "text": "Ich bin motiviert, meine Fähigkeiten zu verbessern, innovative Lösungen zu erkunden und mit neuen Technologien auf dem neuesten Stand zu bleiben. Derzeit lerne ich React und Vue.js und wende mein Wissen in Projekten an."
+  },
+  "feedback": {
+    "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich gesagt haben:"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "text": "Ich bin immer offen für spannende Jobangebote und neue Möglichkeiten, bei denen ich meine Fähigkeiten einbringen kann. Mit meiner Erfahrung und meiner Leidenschaft für durchdachte, benutzerfreundliche Anwendungen bringe ich echten Mehrwert in jedes Projekt. Lassen Sie uns gemeinsam etwas Großartiges schaffen!",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "message": "Ihre Nachricht",
+    "read": "Ich habe die",
+    "privacy": "Datenschutzerklärung",
+    "agree": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "button": "Senden"
+  },
+  "my-projects": {
+  "title": "Meine Projekte",
+  "duration": "Dauer: 3 Wochen",
+  "about": "Über das Projekt",
+  "organised": "So habe ich meinen Arbeitsprozess organisiert",
+  "experience": "Meine Erfahrung in der Gruppenarbeit"
+}
+}
