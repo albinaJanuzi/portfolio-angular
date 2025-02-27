@@ -201,7 +201,26 @@ a{
     }
 }
 
+@media (min-width:1025px){
+    .mobile{
+        display: none;
+    }
+}
+
 @media (max-width:1025px){
+    .arrow-up img{
+        display: none;
+    }
+    .arrow-mobile{
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+
+        img:hover{
+            background-color: #3F464A;
+            border-radius: 30px;
+    }
+    }
     h1{
         font-size: 32px;
     }
@@ -212,9 +231,5 @@ a{
 
     .input-group{
         flex-direction: column;
-    }
-
-    .arrow-up img{
-        display: none;
     }
 }
