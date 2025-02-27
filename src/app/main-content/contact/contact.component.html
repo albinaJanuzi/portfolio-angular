@@ -29,34 +29,38 @@
         <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" class="contact-form" novalidate>
             <div class="input-group">
                 <div class="input-container">
-                    <p [ngClass]="{'input-error-title': name.invalid && (name.touched || isSubmitted)}">{{ 'contact.name' | translate }}</p>
+                    <p [ngClass]="{'input-error-title': name.invalid && (name.touched || isSubmitted)}">{{
+                        'contact.name' | translate }}</p>
                     <input type="text" name="name" [(ngModel)]="formData.name" required #name="ngModel"
-                    [ngClass]="{'input-error': (name.invalid && (name.touched || isSubmitted))}">
+                        [ngClass]="{'input-error': (name.invalid && (name.touched || isSubmitted))}">
                 </div>
                 <div class="input-container">
-                    <p [ngClass]="{'input-error-title': email.invalid && (email.touched || isSubmitted)}">{{ 'contact.email' | translate }}</p>
+                    <p [ngClass]="{'input-error-title': email.invalid && (email.touched || isSubmitted)}">{{
+                        'contact.email' | translate }}</p>
                     <input type="email" name="email" [(ngModel)]="formData.email" required #email="ngModel"
-                    [ngClass]="{'input-error': (email.invalid && (email.touched || isSubmitted))}">
+                        [ngClass]="{'input-error': (email.invalid && (email.touched || isSubmitted))}">
                 </div>
             </div>
             <div class="text-area-title">
-                <p [ngClass]="{'input-error-title': message.invalid && (message.touched || isSubmitted)}">{{ 'contact.message' | translate }}</p>
+                <p [ngClass]="{'input-error-title': message.invalid && (message.touched || isSubmitted)}">{{
+                    'contact.message' | translate }}</p>
                 <textarea name="message" [(ngModel)]="formData.message" required #message="ngModel"
-  [ngClass]="{'input-error': (message.invalid && (message.touched || isSubmitted))}"></textarea>
-                    
-                    <div class="policy" (click)="toggleCheckbox()" (mouseenter)="onHover()" (mouseleave)="onLeave()">
-                        <img class="checkbox-default" src="assets/img/contact/checkbox.svg" alt="Default Checkbox"
-                             [style.display]="checkboxState === 'default' ? 'block' : 'none'">
-                        <img class="checkbox-hover" src="assets/img/contact/hover-checkbox.svg" alt="Hover Checkbox"
-                             [style.display]="checkboxState === 'hover' ? 'block' : 'none'">
-                        <img class="checkbox-checked" src="assets/img/contact/checked-checkbox.svg" alt="Checked Checkbox"
-                             [style.display]="checkboxState === 'checked' ? 'block' : 'none'">
-                        <img class="checkbox-error" src="assets/img/contact/checkbox-red.svg" alt="Error Checkbox"
-                             [style.display]="checkboxState === 'error' ? 'block' : 'none'"> <!-- Rotes Checkbox-Bild -->
-                        
-                        <label for="privacy-policy">{{ 'contact.read' | translate }} <a href="#">{{ 'contact.privacy' | translate }} </a>{{ 'contact.agree' | translate }}</label>
-                      </div>
-                      
+                    [ngClass]="{'input-error': (message.invalid && (message.touched || isSubmitted))}"></textarea>
+
+                <div class="policy" (click)="toggleCheckbox()" (mouseenter)="onHover()" (mouseleave)="onLeave()">
+                    <img class="checkbox-default" src="assets/img/contact/checkbox.svg" alt="Default Checkbox"
+                        [style.display]="checkboxState === 'default' ? 'block' : 'none'">
+                    <img class="checkbox-hover" src="assets/img/contact/hover-checkbox.svg" alt="Hover Checkbox"
+                        [style.display]="checkboxState === 'hover' ? 'block' : 'none'">
+                    <img class="checkbox-checked" src="assets/img/contact/checked-checkbox.svg" alt="Checked Checkbox"
+                        [style.display]="checkboxState === 'checked' ? 'block' : 'none'">
+                    <img class="checkbox-error" src="assets/img/contact/checkbox-red.svg" alt="Error Checkbox"
+                        [style.display]="checkboxState === 'error' ? 'block' : 'none'"> <!-- Rotes Checkbox-Bild -->
+
+                    <label for="privacy-policy">{{ 'contact.read' | translate }} <a href="#">{{ 'contact.privacy' |
+                            translate }} </a>{{ 'contact.agree' | translate }}</label>
+                </div>
+
 
                 <div class="button-position">
                     <button type="submit">{{ 'contact.button' | translate }}</button>

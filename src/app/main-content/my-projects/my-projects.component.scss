@@ -104,7 +104,7 @@ section {
 }
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     padding-left:100px;
     align-items: center;
 
@@ -161,8 +161,18 @@ button{
     font-weight: 400;
 }
 
-
-@media (max-width:1080px){
+@media (min-width:1260px){
+    .mobile{
+        display: none;
+    }
+}
+@media (max-width:1260px){
+    .media{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
     .projekt-info-txt{
         p{
             font-size:16px;

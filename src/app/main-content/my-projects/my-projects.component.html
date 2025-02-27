@@ -59,13 +59,16 @@
                     <div class="img-position"> <img src="assets/img/my-projects-img/elPolloLoco.svg"
                             alt="Project Screenshot"></div>
 
-                    <div class="button-position">
+                    <div class="button-position media">
                         <button (click)="goToLiveTest()" class="button-test">Live Test</button>
                         <button (click)="goToGitHub()"  class="github-button">Git hub</button>
                     </div>
                 </div>
             </div>
-
+            <div class="button-position mobile">
+                <button (click)="goToLiveTest()" class="button-test">Live Test</button>
+                <button (click)="goToGitHub()"  class="github-button">Git hub</button>
+            </div>
         </section>
 
         <section [class.active]="activeSection === 'join'">
