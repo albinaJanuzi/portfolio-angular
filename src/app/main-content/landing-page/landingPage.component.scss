@@ -8,6 +8,103 @@ section {
     flex-direction: column;
 }
 
+.burger-icon {
+    width: 40px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.x-icon {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.x-icon .line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+.x-icon .line1 {
+    top: 0;
+}
+
+
+.x-icon .line2 {
+    bottom: 0;
+}
+
+/* Wenn das Overlay sichtbar ist, transformiere die Linien zu einem "X" */
+.x-icon.active .line1 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.x-icon.active .line2 {
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top:100px;
+    z-index: 999;
+}
+
+.overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.navbar-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Abstand zwischen den Links */
+    font-size: 24px;
+    z-index: 2; /* Über dem Overlay-Bild */
+}
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #262E34;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: white; /* Change the color on hover */
+  }
+
 .navbar {
     position: fixed;
     bottom: 0;
@@ -16,15 +113,28 @@ section {
     background-color: #262E34;
     text-align: center;
     z-index: 1000;
-  }
-  
-  .navbar.sticky {
+}
+
+.navbar.sticky {
     position: fixed;
     top: 0;
     bottom: auto;
-  }
-  
+}
 
+.language button{
+    
+        border:none;
+        color: #262E34;
+        background-color: #89BCD9;
+        font-size: 18px;
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        transition: color 0.3s ease;
+      
+        &:hover {
+          color: white;
+        }
+}
 
 .social-media {
     position: absolute;
@@ -132,14 +242,16 @@ section {
     }
 }
 
-@media (max-width:1280px){
-    section{
+@media (max-width:1280px) {
+    section {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .main-content {
-        padding:0px;
+        padding: 0px;
+
         h1 {
             font-size: 48px;
         }
@@ -148,7 +260,7 @@ section {
             font-size: 24px;
         }
 
-       
+
 
         .profile-image {
             height: 500px;
@@ -179,8 +291,10 @@ section {
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: #262E34; /* Anpassen je nach Design */
-        text-align: center; /* Falls nötig */
+        background-color: #262E34;
+        /* Anpassen je nach Design */
+        text-align: center;
+        /* Falls nötig */
         z-index: 1000;
     }
 }
@@ -247,12 +361,13 @@ section {
 }
 
 @media (max-width: 930px) {
-    section{
+    section {
         display: block;
     }
+
     .header {
         padding: 10px;
-        padding-bottom:0px;
+        padding-bottom: 0px;
     }
 
     .main-content {
@@ -279,4 +394,3 @@ section {
         }
     }
 }
-

@@ -9,5 +9,22 @@
 
     "landing-page":{
       "title": "Frontend Developer"
+    },
+
+    "navbar":{
+      "whyme": "Why me",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+
+    "my-skills":{
+      "title": "My Skills",
+      "learning":"I am currently learning",
+      "text":"I am motivated to improve my skills, explore innovative solutions, and stay up to date with new technologies. Currently, I am learning React and Vue.js and applying my knowledge through projects."
+    },
+
+    "feedback":{
+      "title":"Need a teamplayer? Here what my colleagues said about me"
     }
   }

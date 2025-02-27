@@ -3,7 +3,11 @@
      font-family: 'Josefin Sans';
     color: white;;
  }
-
+.position-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h2{
     font-size: 32px;
     font-weight: 100;

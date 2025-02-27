@@ -4,10 +4,10 @@
     <img src="assets/img/footer/footer-logo.svg" alt="">
 </div>
 <div class="navbar-links">
-    <a href="#whyme" (click)="setActive('whyme')" [ngClass]="{'active': activeLink === 'whyme'}">Why me</a>
-    <a href="#skills" (click)="setActive('skills')" [ngClass]="{'active': activeLink === 'skills'}">Skills</a>
-    <a href="#projects" (click)="setActive('projects')" [ngClass]="{'active': activeLink === 'projects'}">Projects</a>
-    <a href="#contact" (click)="setActive('contact')" [ngClass]="{'active': activeLink === 'contact'}">Contact</a>
+    <a href="#whyme" (click)="setActive('whyme')" [ngClass]="{'active': activeLink === 'whyme'}">{{ 'navbar.whyme' | translate }}</a>
+    <a href="#skills" (click)="setActive('skills')" [ngClass]="{'active': activeLink === 'skills'}">{{ 'navbar.skills' | translate }}</a>
+    <a href="#projects" (click)="setActive('projects')" [ngClass]="{'active': activeLink === 'projects'}">{{ 'navbar.projects' | translate }}</a>
+    <a href="#contact" (click)="setActive('contact')" [ngClass]="{'active': activeLink === 'contact'}">{{ 'navbar.contact' | translate }}</a>
   </div>
   
 

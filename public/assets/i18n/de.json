@@ -10,7 +10,24 @@
    
       "landing-page":{
         "title": "Frontend Entwickler"
-      }
+      },
+
+      "navbar":{
+      "whyme": "Warum ich",
+      "skills": "Fähigkeiten",
+      "projects": "Projekte",
+      "contact": "Kontakt"
+    },
+
+    "my-skills":{
+      "title": "Meine Fähigkeiten",
+      "learning":"Ich lerne derzeit ...",
+      "text":"Ich bin motiviert, meine Fähigkeiten zu verbessern, innovative Lösungen zu erkunden und mit neuen Technologien auf dem neuesten Stand zu bleiben. Derzeit lerne ich React und Vue.js und wende mein Wissen in Projekten an."
+    },
+
+    "feedback":{
+      "title":"Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich gesagt haben:"
+    }
     
 
 

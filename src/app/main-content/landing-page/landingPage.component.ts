@@ -1,7 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
-import {TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-landingPage',
@@ -12,6 +12,7 @@ import {TranslatePipe, TranslateDirective} from "@ngx-translate/core";
 })
 export class LandingPageComponent {
   isSticky: boolean = false;
+  overlayVisible: boolean = false;
 
   @HostListener('window:scroll', [])
   onScroll(): void {
@@ -24,4 +25,14 @@ export class LandingPageComponent {
       this.isSticky = false; //Navbar zurück nach unten
     }
   }
+
+  toggleOverlay(): void {
+    this.overlayVisible = !this.overlayVisible;
+  }
+
+   constructor(private translate: TranslateService) {}
+    changeLanguage(language: string){
+      this.translate.use(language);
+    }
 }
+
