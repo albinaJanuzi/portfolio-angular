@@ -12,12 +12,14 @@ import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translat
 })
 export class NavbarComponent {
   activeLink: string = '';
+  activeLanguage: string = 'en';
 
   setActive(link: string) {
     this.activeLink = link;
   }
   constructor(private translate: TranslateService) {}
   changeLanguage(language: string){
+    this.activeLanguage = language;
     this.translate.use(language);
   }
  
