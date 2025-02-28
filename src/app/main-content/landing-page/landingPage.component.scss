@@ -394,3 +394,16 @@ section {
         }
     }
 }
+
+@media (max-height: 1368px) {
+    .main-content{
+        .main-info{
+            top:400px;
+        }
+    }
+
+    section{
+        min-height:92vh;
+    }
+
+}

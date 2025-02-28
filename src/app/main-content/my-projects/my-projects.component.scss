@@ -161,17 +161,10 @@ button{
     font-weight: 400;
 }
 
-@media (min-width:1260px){
-    .mobile{
-        display: none;
-    }
-}
+
 @media (max-width:1260px){
     .media{
         display: none;
-    }
-    .mobile{
-        display: flex;
     }
     .projekt-info-txt{
         p{
