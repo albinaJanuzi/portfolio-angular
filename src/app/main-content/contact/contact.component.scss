@@ -1,3 +1,4 @@
+
 .contact-section {
     background-color: #262E34;
     font-family: 'Josefin Sans';
@@ -97,7 +98,7 @@ h1 {
 }
 
 
-.input-group input {
+.input-group input[type=text],[type=email] {
     flex: 1; 
     padding-top: 20px;
     padding-bottom: 20px;
