@@ -55,9 +55,9 @@
                     <img class="checkbox-checked" src="assets/img/contact/checked-checkbox.svg" alt="Checked Checkbox"
                         [style.display]="checkboxState === 'checked' ? 'block' : 'none'">
                     <img class="checkbox-error" src="assets/img/contact/checkbox-red.svg" alt="Error Checkbox"
-                        [style.display]="checkboxState === 'error' ? 'block' : 'none'"> <!-- Rotes Checkbox-Bild -->
+                        [style.display]="checkboxState === 'error' ? 'block' : 'none'"> 
 
-                    <label for="privacy-policy">{{ 'contact.read' | translate }} <a href="#">{{ 'contact.privacy' |
+                    <label for="privacy-policy">{{ 'contact.read' | translate }} <a [routerLink]="['/privacy-policy']">{{ 'contact.privacy' |
                             translate }} </a>{{ 'contact.agree' | translate }}</label>
                 </div>
 

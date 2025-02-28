@@ -65,7 +65,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top:100px;
+    padding-top: 100px;
     z-index: 999;
 }
 
@@ -89,21 +89,24 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Abstand zwischen den Links */
+    gap: 20px;
+    /* Abstand zwischen den Links */
     font-size: 24px;
-    z-index: 2; /* Über dem Overlay-Bild */
+    z-index: 2;
+    /* Über dem Overlay-Bild */
 }
-  
-  .navbar-links a {
+
+.navbar-links a {
     text-decoration: none;
     color: #262E34;
     font-weight: 500;
     transition: color 0.3s ease;
-  }
-  
-  .navbar-links a:hover {
-    color: white; /* Change the color on hover */
-  }
+}
+
+.navbar-links a:hover {
+    color: white;
+    /* Change the color on hover */
+}
 
 .navbar {
     position: fixed;
@@ -121,19 +124,19 @@ section {
     bottom: auto;
 }
 
-.language button{
-    
-        border:none;
-        color: #262E34;
-        background-color: #89BCD9;
-        font-size: 18px;
-        font-family: 'Josefin Sans';
-        font-weight: 400;
-        transition: color 0.3s ease;
-      
-        &:hover {
-          color: white;
-        }
+.language button {
+
+    border: none;
+    color: #262E34;
+    background-color: #89BCD9;
+    font-size: 18px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: white;
+    }
 }
 
 .social-media {
@@ -396,13 +399,13 @@ section {
 }
 
 @media (max-height: 1368px) {
-    section{
-        height:92vh;
+    section {
+        height: 92vh;
     }
 
-    .main-content{
-        .main-info{
-            top:400px;
+    .main-content {
+        .main-info {
+            top: 400px;
         }
     }
 }

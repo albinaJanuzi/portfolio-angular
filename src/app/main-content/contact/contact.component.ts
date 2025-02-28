@@ -3,9 +3,10 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { NgForm } from '@angular/forms';
 import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-contact',
-  imports: [FormsModule, CommonModule, TranslatePipe, TranslateDirective],
+  imports: [FormsModule, CommonModule, TranslatePipe, TranslateDirective, RouterModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })

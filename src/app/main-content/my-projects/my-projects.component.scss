@@ -3,7 +3,7 @@
     font-family: 'Josefin Sans';
     color: white;
     padding: 100px 0;
-   
+
 }
 
 h1 {
@@ -14,14 +14,14 @@ h1 {
     text-align: center;
 }
 
-h3{
-    font-size:28px;
+h3 {
+    font-size: 28px;
     font-weight: 400;
 
 }
 
-.img-position img{
-    width:400px;
+.img-position img {
+    width: 400px;
     border-radius: 30px;
 }
 
@@ -30,14 +30,14 @@ nav {
     justify-content: flex-start;
     padding-left: 120px;
 
- 
+
 
     ul {
         list-style: none;
         display: flex;
         padding: 0;
         margin: 0;
-        
+
 
         li {
             cursor: pointer;
@@ -45,10 +45,11 @@ nav {
             padding: 10px 20px;
             transition: 0.3s;
             font-size: 36px;
-            padding-top:30px;
-            padding-bottom:30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
 
-            &.active, &:hover {
+            &.active,
+            &:hover {
                 background-color: #2D3840;
                 border-top-left-radius: 30px;
                 border-top-right-radius: 30px;
@@ -59,7 +60,7 @@ nav {
 }
 
 section {
-    display: none; 
+    display: none;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #2D3840;
@@ -67,70 +68,73 @@ section {
     margin: auto;
 
     &.active {
-        display: block; 
+        display: block;
     }
 }
-.projekt-info-txt{
-    max-width:600px;
-    padding-left: 78px;
-   }
 
-   .projekt-info-txt p{
-    font-size:18px;
+.projekt-info-txt {
+    max-width: 600px;
+    padding-left: 78px;
+}
+
+.projekt-info-txt p {
+    font-size: 18px;
     font-weight: 400;
-   }
-.projekt-info{
+}
+
+.projekt-info {
     display: flex;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
 
 
-.info-content{
-    padding-top:20px;
+.info-content {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
 
 
 
-.info-content-container{
+.info-content-container {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
 }
-.row{
+
+.row {
     display: flex;
-    justify-content:space-evenly;
-    padding-left:100px;
+    justify-content: space-evenly;
+    padding-left: 100px;
     align-items: center;
 
 }
 
-.technologies{
+.technologies {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:32px;
+    gap: 32px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.projekt-bild p{
-text-align: center;
+.projekt-bild p {
+    text-align: center;
 }
 
-.button-position{
+.button-position {
     display: flex;
     justify-content: center;
-    gap:10px;
-    padding-top:20px;
+    gap: 10px;
+    padding-top: 20px;
 }
 
-.github-button{
+.github-button {
     background: transparent;
     border: 2px solid #89BCD9;
     padding: 13px 32px;
@@ -139,11 +143,11 @@ text-align: center;
     border-radius: 30px;
 }
 
-.github-button:hover{
+.github-button:hover {
     background-color: #3F464A;
 }
 
-.button-test{
+.button-test {
     background-color: #89BCD9;
     border: none;
     padding: 13px 32px;
@@ -151,82 +155,88 @@ text-align: center;
     color: #262E34;
     border-radius: 30px;
 }
-.button-test:hover{
+
+.button-test:hover {
     background-color: #F8F5EC;
 }
 
-button{
+button {
     font-family: 'Josefin Sans';
-    font-size:18px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 
-@media (max-width:1260px){
-    .media{
+@media (max-width:1260px) {
+    .media {
         display: none;
     }
-    .projekt-info-txt{
-        p{
-            font-size:16px;
+
+    .projekt-info-txt {
+        p {
+            font-size: 16px;
         }
     }
-   
-    h3{
-        font-size:18px;
+
+    h3 {
+        font-size: 18px;
     }
-    nav{
-        padding-left:0px;
-        ul{
-            li{
+
+    nav {
+        padding-left: 0px;
+
+        ul {
+            li {
                 font-size: 18px;
             }
         }
-        
+
     }
-    .row{
-        padding:0px;
+
+    .row {
+        padding: 0px;
         flex-direction: column-reverse;
     }
 
-    .img-position{
+    .img-position {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .info-content-container{
+    .info-content-container {
         justify-content: center;
         align-items: center;
     }
- }
+}
 
- @media (max-width:580px){
-    h1{
+@media (max-width:580px) {
+    h1 {
         font-size: 32px;
     }
-  .img-position img{
-    width:269px;
-  }
 
-  nav{
-    ul{
-        li{
-            padding-left:5px;
-            padding-right:0px;
+    .img-position img {
+        width: 269px;
+    }
+
+    nav {
+        ul {
+            li {
+                padding-left: 5px;
+                padding-right: 0px;
+            }
         }
     }
-  }
 
-  .projekt-info{
-    gap:10px;
-  }
+    .projekt-info {
+        gap: 10px;
+    }
 
-  .projekt-info-txt{
-    padding-left:39px;
-  }
+    .projekt-info-txt {
+        padding-left: 39px;
+    }
 
-  .info-content{
-    padding-left: 5px;
-  }
- }
+    .info-content {
+        padding-left: 5px;
+    }
+}
