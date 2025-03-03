@@ -37,7 +37,8 @@
       "read":"I've read the",
       "privacy":"privacy policy ",
       "agree":"and agree to the processing of my data as outlined.",
-      "button":"Send"
+      "button":"Send",
+      "successMessage": "E-Mail wurde erfolgreich gesendet!"
     },
 
     "my-projects":{
@@ -104,4 +105,5 @@
       "sourceNote": "Source: Generated with a legal notice generator and adapted.",
       "goBack": "Go Back"
     }
+  
   }
