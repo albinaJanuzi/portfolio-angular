@@ -19,6 +19,7 @@ export class ContactComponent {
   formData = { name: '', email: '', message: '', agreed: false };
   isSubmitted = false;
   mailTest = false;
+  showSuccessMessage = false; // Für das Dialogfenster
 
   post = {
     endPoint: 'http://albina-januzi.de/sendMail.php',
@@ -32,13 +33,23 @@ export class ContactComponent {
   };
 
   onSubmit(form: NgForm) {
+    this.isSubmitted = true;
+    if (!form.valid || !this.formData.agreed) {
+      if (!this.formData.agreed) {
+        this.checkboxState = 'error';
+      }
+      return; 
+    }
     if (form.submitted && form.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.formData))
         .subscribe({
           next: (response) => {
-
             form.resetForm();
-            alert('Message sent successfully!');
+            this.checkboxState = 'default';
+            this.showSuccessMessage = true;
+            setTimeout(() => {
+              this.showSuccessMessage = false;
+            }, 3000); 
           },
           error: (error) => {
             console.error(error);
@@ -46,20 +57,9 @@ export class ContactComponent {
           complete: () => console.info('send post complete'),
         });
     } else if (form.submitted && form.form.valid && this.mailTest) {
-
       form.resetForm();
+      this.checkboxState = 'default';
     }
-    this.isSubmitted = true;
-
-    if (!form.valid || !this.formData.agreed) {
-      if (!this.formData.agreed) {
-        this.checkboxState = 'error'; // Fehleranzeige für Checkbox
-      }
-      return; // Email wird nicht abgeschickt
-    }
-
-    console.log('Form Data:', this.formData);
-   
   }
 
   toggleCheckbox() {

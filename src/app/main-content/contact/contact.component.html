@@ -71,4 +71,8 @@
     <div class="arrow-mobile">
         <a href="#landingPage"><img src="assets/img/contact/arrowUp.svg" alt="Arrow Up"></a>
     </div>
+    <div *ngIf="showSuccessMessage" class="success-dialog">
+        <p>{{ 'contact.successMessage' | translate }}</p>
+      </div>
+      
 </section>
