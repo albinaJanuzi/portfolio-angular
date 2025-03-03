@@ -70,3 +70,11 @@ body {
     display: flex;
     justify-content: center;
 }
+
+app-navbar {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: white;
+    z-index: 1000;
+  }

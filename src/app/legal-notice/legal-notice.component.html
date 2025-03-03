@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Notice</title> 
 </head>
+<app-navbar></app-navbar>
 <body>
 
 <section class="container">
-    <h1>Legal Notice</h1>
-    <h2>Information about the service provider</h2>
+    <h1>{{ 'legal-notice.legalNotice' | translate }}</h1>
+    <h2>{{ 'legal-notice.serviceProviderInfo' | translate }}</h2>
     <p><strong>Albina Januzi</strong></p>
-    <p>Herrenwiese 12, 53506 Hönningen</p>
-    <p><strong>Phone:</strong> +491626963005</p>
-    <p><strong>Email:</strong> <a href="">albina_januzi&commat;hotmail.com</a></p>
+    <p>{{ 'legal-notice.address' | translate }}</p>
+    <p><strong>{{ 'legal-notice.phone' | translate }}:</strong> +491626963005</p>
+    <p><strong>Email: </strong> <a href="">albina_januzi&commat;hotmail.com</a></p>
+    <h2>{{ 'legal-notice.euDisputeResolution' | translate }}</h2>
+    <p>{{ 'legal-notice.euDisputeResolutionDesc' | translate }}</p>
+    <p>{{ 'legal-notice.complaintsLink' | translate }}</p>
+    <p><a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN" target="_blank">{{ 'legal-notice.odrPlatform' | translate }}</a></p>
+    <p>{{ 'legal-notice.noParticipation' | translate }}</p>
 
-    <h2>EU Dispute Resolution</h2>
-    <p>In accordance with the <strong>Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation)</strong>, we would like to inform you about the <strong>Online Dispute Resolution (ODR) platform</strong> of the European Commission.</p>
-    <p>Consumers can submit complaints via the following link:</p>
-    <p><a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN" target="_blank">Online Dispute Resolution Platform</a></p>
-    <p>Our contact details can be found above. However, we are neither <strong>willing nor obligated</strong> to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+    <h2>{{ 'legal-notice.imageContentRights' | translate }}</h2>
+    <p>{{ 'legal-notice.imageRights' | translate }}</p>
+    <p><strong>{{ 'legal-notice.imageSource' | translate }}</strong></p>
+    <p>{{ 'legal-notice.textRights' | translate }}</p>
 
-    <h2>Image & Content Rights</h2>
-    <p>All images, photos, and graphics on this website are <strong>copyright protected</strong>.</p>
-    <p><strong>Image Rights:</strong> Developer Academy</p>
-    <p>All textual content on this website is also <strong>protected by copyright</strong>.</p>
+    <p><em>{{ 'legal-notice.sourceNote' | translate }}</em></p>
 
-    <p><em>Source: Generated with a legal notice generator and adapted.</em></p>
-
-    <div class="button-position"><a [routerLink]="['/']"><button>Go Back</button></a></div>
+    <div class="legal-notice.button-position"><a [routerLink]="['/']"><button>{{ 'legal-notice.goBack' | translate }}</button></a></div>
 </section>
 
 </body>

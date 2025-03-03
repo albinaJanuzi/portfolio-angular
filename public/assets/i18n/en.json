@@ -85,5 +85,23 @@
       "contactUs": "Contact Us",
       "contactUsDesc": "If you have any questions, feel free to contact us:",
       "goBack": "Go Back"
+    },
+    "legal-notice": {
+      "legalNotice": "Legal Notice",
+      "serviceProviderInfo": "Information about the service provider",
+      "name": "Albina Januzi",
+      "address": "Herrenwiese 12, 53506 Hönningen",
+      "phone": "Phone",
+      "euDisputeResolution": "EU Dispute Resolution",
+      "euDisputeResolutionDesc": "In accordance with the Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation), we would like to inform you about the Online Dispute Resolution (ODR) platform of the European Commission.",
+      "odrPlatform": "Online Dispute Resolution Platform",
+      "complaintsLink": "Consumers can submit complaints via the following link:",
+      "noParticipation": "Our contact details can be found above. However, we are neither willing nor obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
+      "imageContentRights": "Image & Content Rights",
+      "imageRights": "All images, photos, and graphics on this website are copyright protected.",
+      "imageSource": "Image Rights: Developer Academy",
+      "textRights": "All textual content on this website is also protected by copyright.",
+      "sourceNote": "Source: Generated with a legal notice generator and adapted.",
+      "goBack": "Go Back"
     }
   }

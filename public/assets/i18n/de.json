@@ -78,5 +78,22 @@
   "contactUs": "Kontaktieren Sie uns",
   "contactUsDesc": "Wenn Sie Fragen haben, können Sie uns gerne kontaktieren:",
   "goBack": "Zurück"
-}
+},
+"legal-notice": {
+    "legalNotice": "Impressum",
+    "serviceProviderInfo": "Informationen über den Dienstanbieter",
+    "address": "Herrenwiese 12, 53506 Hönningen",
+    "phone": "Telefon",
+    "euDisputeResolution": "EU-Streitbeilegung",
+    "euDisputeResolutionDesc": "Gemäß der Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir Sie über die Online-Streitbeilegungsplattform (ODR-Plattform) der Europäischen Kommission informieren.",
+    "odrPlatform": "Online-Streitbeilegungsplattform",
+    "complaintsLink": "Verbraucher können Beschwerden über den folgenden Link einreichen:",
+    "noParticipation": "Unsere Kontaktdaten finden Sie oben. Wir sind jedoch weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    "imageContentRights": "Bild- und Inhaltsrechte",
+    "imageRights": "Alle Bilder, Fotos und Grafiken auf dieser Website sind urheberrechtlich geschützt.",
+    "imageSource": "Bildrechte: Developer Academy",
+    "textRights": "Alle textlichen Inhalte auf dieser Website sind ebenfalls urheberrechtlich geschützt.",
+    "sourceNote": "Quelle: Generiert mit einem Impressum-Generator und angepasst.",
+    "goBack": "Zurück"
+  }
 }
