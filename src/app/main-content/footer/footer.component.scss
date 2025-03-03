@@ -86,3 +86,14 @@ img {
     gap: 30px;
   }
 }
+
+@media (min-width: 2000px) {
+  .contact-form form{
+      width:100%
+  }
+
+  .display{
+    justify-content: center;
+    gap:200px;
+  }
+}

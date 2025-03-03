@@ -39,7 +39,30 @@ h1 {
     color: #89BCD9;
 }
 
-.learning-container{
+// .learning-container{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+// }
+
+// .learning-container:hover img{
+//     content: url('../../../../public/assets/img/my-skills-img/hover-ellipse.svg');
+//     background-repeat: no-repeat;
+// }
+// .txt-position{
+//     position: absolute;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     max-width: 400px;
+
+// }
+
+.txt-container{
+    width: 387px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,17 +70,24 @@ h1 {
     text-align: center;
 }
 
-.ellipse:hover img {
-    content: url('../../../../public/assets/img/my-skills-img/hover-ellipse.svg');
+.txt-container:hover img.background-img {
+    content: url('../../../../public/assets/img/feedback-img/hover-reference-shape.svg');
 }
+    
 .txt-position{
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 400px;
 
+    gap:8px;
+}
+
+.txt-container p{
+    width:260px;
+    font-size:18px;
+    
 }
 .learning-title {
     font-size: 18px;

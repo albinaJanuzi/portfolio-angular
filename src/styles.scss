@@ -1,11 +1,17 @@
 *{
     margin:0;
     scroll-behavior: smooth;
+  
+}
+html{
+  scroll-padding-top: 100px;
+  background-color: #262E34;
 }
 
 button, a{
   cursor: pointer;
 }
+
 
 
 /* anta-regular - latin_latin-ext_math_symbols */

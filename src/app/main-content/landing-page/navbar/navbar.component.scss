@@ -64,3 +64,9 @@ button {
   align-items: center;
   gap: 10px;
 }
+
+@media (min-width: 2000px) {
+  .navbar-content{
+    justify-content: center;
+  }
+}

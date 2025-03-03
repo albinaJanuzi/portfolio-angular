@@ -166,7 +166,11 @@ button {
     font-weight: 400;
 }
 
-
+@media (min-width:1260px) {
+    .mobile{
+        display: none;
+    }
+}
 @media (max-width:1260px) {
     .media {
         display: none;
@@ -239,4 +243,15 @@ button {
     .info-content {
         padding-left: 5px;
     }
+}
+
+
+@media (min-width: 2000px) {
+ nav{
+    padding:0px;
+ }
+
+ .row{
+    padding:50px;
+ }
 }

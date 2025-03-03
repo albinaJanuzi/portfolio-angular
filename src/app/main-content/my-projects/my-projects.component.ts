@@ -19,11 +19,13 @@ export class MyProjectsComponent {
   }
 
   goToLiveTest() {
-    window.location.href = 'http://albina-januzi.de/elPolloLoco/';
+    window.location.href = 'https://albina-januzi.de/elPolloLoco/';
   }
 
   goToGitHub(){
     window.location.href = 'https://github.com/albinaJanuzi/elPolloLoco';
   }
+
+  
 
 }
