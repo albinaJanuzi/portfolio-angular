@@ -50,14 +50,40 @@
       "elPolloLoco-about":"A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the final boss Chicken and the small chickens.",
       "elPolloLoco-organised":"To develop this jump-and-run game, I followed a structured and organized workflow. I used an object-oriented approach to keep the code clean, modular, and easy to maintain. Each game element, such as the player, enemies, and collectibles, was implemented as separate classes to ensure reusability. I also followed a step-by-step development process, starting with the core mechanics, then adding animations, collision detection, and game logic. Regular testing and debugging helped me refine the gameplay and fix issues efficiently. This structured approach ensured a smooth and well-organized development process.",
       "elPolloLoco-learn":"During the development of this game, I gained valuable experience in object-oriented programming and game development. I learned how to structure clean and maintainable code, implement animations, and handle collision detection effectively. Debugging and testing taught me the importance of refining gameplay for a smooth user experience. Overall, this project helped me improve my coding skills and problem-solving abilities."
+    },
 
-
-
-
-
-
-
-
-
+    "privacy-policy": {
+      "privacyPolicy": "Privacy Policy",
+      "privacyIntro": "Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, [Your Website], and any other platforms we operate.",
+      "infoWeCollect": "Information We Collect",
+      "infoWeCollectDesc": "We collect personal information only when necessary, for example:",
+      "voluntaryData": "When you voluntarily provide data",
+      "automaticData": "Automatically through website interactions",
+      "externalSources": "From external sources when applicable",
+      "howWeUseInfo": "How We Use Your Information",
+      "howWeUseInfoDesc": "We use the collected data to:",
+      "operateWebsite": "Operate and improve our website",
+      "enhanceExperience": "Enhance user experience",
+      "analyzeTraffic": "Analyze website traffic and performance",
+      "developFeatures": "Develop new features and services",
+      "communicateUpdates": "Communicate updates and support",
+      "processTransactions": "Process transactions",
+      "preventFraud": "Prevent fraud",
+      "sharingInfo": "Sharing Your Information",
+      "sharingInfoDesc": "We do not sell or publicly share your data. We may only disclose information when legally required.",
+      "dataRetention": "Data Retention",
+      "dataRetentionDesc": "Your data is stored only as long as necessary to fulfill legal and operational requirements.",
+      "dataRights": "Your Data Protection Rights",
+      "dataRightsDesc": "Depending on your location, you may have the right to:",
+      "accessData": "Access your personal data",
+      "requestCorrection": "Request corrections",
+      "requestDeletion": "Request deletion under certain conditions",
+      "restrictProcessing": "Restrict or object to data processing",
+      "requestTransfer": "Request data transfer",
+      "policyUpdates": "Updates to This Policy",
+      "policyUpdatesDesc": "We may update this Privacy Policy from time to time. Changes take effect when posted on this page.",
+      "contactUs": "Contact Us",
+      "contactUsDesc": "If you have any questions, feel free to contact us:",
+      "goBack": "Go Back"
     }
   }

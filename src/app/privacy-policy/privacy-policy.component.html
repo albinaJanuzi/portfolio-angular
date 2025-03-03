@@ -4,65 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy</title>
-    <style>
-       
-    </style>
 </head>
+<app-navbar></app-navbar>
 <body>
-<section class="privacy-content">
+   
+<section class="privacy-content">   
 <div class="container">
-    <h1>Privacy Policy</h1>
-    <p>Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, <strong>[Your Website]</strong>, and any other platforms we operate.</p>
-
-    <h2>1. Information We Collect</h2>
-    <p>We collect personal information only when necessary, for example:</p>
+    <h1>{{ 'privacy-policy.privacyPolicy' | translate }}</h1>
+    <p>{{ 'privacy-policy.privacyIntro' | translate }}</p>
+    <h2>1. {{ 'privacy-policy.infoWeCollect' | translate }}</h2>
+    <p>{{ 'privacy-policy.infoWeCollectDesc' | translate }}</p>
     <ul>
-        <li>When you voluntarily provide data</li>
-        <li>Automatically through website interactions</li>
-        <li>From external sources when applicable</li>
+        <li>{{ 'privacy-policy.voluntaryData' | translate }}</li>
+        <li>{{ 'privacy-policy.automaticData' | translate }}</li>
+        <li>{{ 'privacy-policy.externalSources' | translate }}</li>
     </ul>
-
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the collected data to:</p>
+    <h2>2. {{ 'privacy-policy.howWeUseInfo' | translate }}</h2>
+    <p>{{ 'privacy-policy.howWeUseInfoDesc' | translate }}</p>
     <ul>
-        <li>Operate and improve our website</li>
-        <li>Enhance user experience</li>
-        <li>Analyze website traffic and performance</li>
-        <li>Develop new features and services</li>
-        <li>Communicate updates and support</li>
-        <li>Process transactions</li>
-        <li>Prevent fraud</li>
+        <li>{{ 'privacy-policy.operateWebsite' | translate }}</li>
+        <li>{{ 'privacy-policy.enhanceExperience' | translate }}</li>
+        <li>{{ 'privacy-policy.analyzeTraffic' | translate }}</li>
+        <li>{{ 'privacy-policy.developFeatures' | translate }}</li>
+        <li>{{ 'privacy-policy.communicateUpdates' | translate }}</li>
+        <li>{{ 'privacy-policy.processTransactions' | translate }}</li>
+        <li>{{ 'privacy-policy.preventFraud' | translate }}</li>
     </ul>
-
-    <h2>3. Sharing Your Information</h2>
-    <p>We do not sell or publicly share your data. We may only disclose information when legally required.</p>
-
-    <h2>4. Data Retention</h2>
-    <p>Your data is stored only as long as necessary to fulfill legal and operational requirements.</p>
-
-    <h2>5. Your Data Protection Rights</h2>
-    <p>Depending on your location, you may have the right to:</p>
+    <h2>3. {{ 'privacy-policy.sharingInfo' | translate }}</h2>
+    <p>{{ 'privacy-policy.sharingInfoDesc' | translate }}</p>
+    <h2>4. {{ 'privacy-policy.dataRetention' | translate }}</h2>
+    <p>{{ 'privacy-policy.dataRetentionDesc' | translate }}</p>
+    <h2>5. {{ 'privacy-policy.dataRights' | translate }}</h2>
+    <p>{{ 'privacy-policy.dataRightsDesc' | translate }}</p>
     <ul>
-        <li>Access your personal data</li>
-        <li>Request corrections</li>
-        <li>Request deletion under certain conditions</li>
-        <li>Restrict or object to data processing</li>
-        <li>Request data transfer</li>
+        <li>{{ 'privacy-policy.accessData' | translate }}</li>
+        <li>{{ 'privacy-policy.requestCorrection' | translate }}</li>
+        <li>{{ 'privacy-policy.requestDeletion' | translate }}</li>
+        <li>{{ 'privacy-policy.restrictProcessing' | translate }}</li>
+        <li>{{ 'privacy-policy.requestTransfer' | translate }}</li>
     </ul>
-
-    <h2>6. Updates to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes take effect when posted on this page.</p>
-
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions, feel free to contact us:</p>
-    <p><strong>Email:</strong> <a href="">albinaJanuzi</a></p>
-    <div class="button-position"><a [routerLink]="['/']"><button>Go Back</button></a></div>
+    <h2>6. {{ 'privacy-policy.policyUpdates' | translate }}</h2>
+    <p>{{ 'privacy-policy.policyUpdatesDesc' | translate }}</p>
+    <h2>7. {{ 'privacy-policy.contactUs' | translate }}</h2>
+    <p>{{ 'privacy-policy.contactUsDesc' | translate }}</p>
+    <p><strong>Email:</strong> <a href="">albina_januzi&commat;hotmail.com</a></p>
+    <div class="button-position"><a [routerLink]="['/']"><button>{{ 'privacy-policy.goBack' | translate }}</button></a></div>
 </div>
-
-
 </section>
-
 </body>
-
 </html>
 <app-footer></app-footer>

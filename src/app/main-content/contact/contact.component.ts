@@ -21,7 +21,7 @@ export class ContactComponent {
   mailTest = false;
 
   post = {
-    endPoint: 'https://albina-januzi.de/sendMail.php',
+    endPoint: 'http://albina-januzi.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
@@ -38,6 +38,7 @@ export class ContactComponent {
           next: (response) => {
 
             form.resetForm();
+            alert('Message sent successfully!');
           },
           error: (error) => {
             console.error(error);
@@ -58,7 +59,7 @@ export class ContactComponent {
     }
 
     console.log('Form Data:', this.formData);
-    alert('Message sent successfully!');
+   
   }
 
   toggleCheckbox() {
