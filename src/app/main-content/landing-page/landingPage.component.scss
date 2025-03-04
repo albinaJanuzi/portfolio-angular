@@ -142,9 +142,7 @@ section {
 }
 
 .social-media {
-    position: absolute;
-    top: 100px;
-    right: 150px;
+    align-self: flex-end;
     display: flex;
     flex-direction: column;
     gap: 15px;

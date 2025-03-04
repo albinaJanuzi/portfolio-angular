@@ -6,7 +6,7 @@
 
 }
 
-h1 {
+h2 {
     color: #89BCD9;
     font-size: 60px;
     font-weight: 100;
@@ -212,12 +212,12 @@ button {
         justify-content: center;
         align-items: center;
     }
+
+   
 }
 
 @media (max-width:580px) {
-    h1 {
-        font-size: 32px;
-    }
+  
 
     .img-position img {
         width: 269px;
@@ -242,6 +242,12 @@ button {
 
     .info-content {
         padding-left: 5px;
+    }
+}
+
+@media (max-width: 930px) {
+    h2 {
+        font-size: 32px;
     }
 }
 
