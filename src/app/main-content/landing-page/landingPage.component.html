@@ -31,7 +31,6 @@
     </div>
 
     <div class="main-content">
-       
         <div class="profile-image">
             <img class="person" src="assets/img/landing-page/albina.png" alt="">
         </div>
@@ -48,12 +47,9 @@
             </div>
             <h1>Albina Januzi</h1>
             <h2>{{ 'landing-page.title' | translate }}</h2>
-
-            <div class="arrow">
-                <a href="#whyme">
+                <a class="arrow">
                     <img src="assets/img/landing-page/default-arrowDown.svg" alt="">
-                </a>
-            </div>
+                </a> 
         </div>
     </div>
     <app-navbar class="navbar" id="navbar" [ngClass]="{ 'sticky': isSticky }"></app-navbar>

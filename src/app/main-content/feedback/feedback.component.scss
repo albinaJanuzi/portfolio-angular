@@ -1,120 +1,124 @@
- section{
+ section {
      background-color: #262E34;
      font-family: 'Josefin Sans';
-    color: white;;
+     color: white;
+     ;
  }
-.position-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h2{
-    font-size: 32px;
-    font-weight: 100;
-    text-align: center;
-    color: #89BCD9;
-}
 
-.txt-container{
-    width: 387px; 
-    height:600px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+ .position-center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.txt-container:hover img {
-    content: url('../../../../public/assets/img/feedback-img/hover-reference-shape.svg');
-}
-    
-.txt-position{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+ h2 {
+     font-size: 32px;
+     font-weight: 100;
+     text-align: center;
+     color: #89BCD9;
+ }
 
-    gap:8px;
-}
+ .txt-container {
+     width: 387px;
+     height: 600px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
 
-.txt-container p{
-    width:260px;
-    font-size:18px;
-    height:100px;
-    
-}
+ .txt-container:hover img {
+     content: url('../../../../public/assets/img/feedback-img/hover-reference-shape.svg');
+ }
 
-.container-position{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .txt-position {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
 
-@media (max-width: 1175px) {
-    h2{
-        font-size:32px;
-    }
-    .container-position {
-        display: flex;
-        overflow-x: auto; 
-        gap: 20px;
-        width: 430px; 
-        justify-content: flex-start; 
-    }
+     gap: 8px;
+ }
 
-    .txt-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        position: relative; //text innerhalb img
-    }
+ .txt-container p {
+     width: 260px;
+     font-size: 18px;
+     height: 100px;
 
-    .txt-container p{
-        font-size:16px;
-    }
+ }
 
- 
+ .container-position {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-    .txt-position {
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        color: white; 
-        width: 80%; 
-       
-    }
+ @media (max-width: 1175px) {
+     h2 {
+         font-size: 32px;
+     }
 
-.container-position::-webkit-scrollbar {
-    width: 10px; 
-    height: 8px; 
-}
+     .container-position {
+         display: flex;
+         overflow-x: auto;
+         gap: 20px;
+         width: 430px;
+         justify-content: flex-start;
+     }
+
+     .txt-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         position: relative; //text innerhalb img
+     }
+
+     .txt-container p {
+         font-size: 16px;
+     }
 
 
-.container-position::-webkit-scrollbar-track {
-    background: #1E252B; 
-    border-radius: 10px;
-}
+
+     .txt-position {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+         width: 80%;
+
+     }
+
+     .container-position::-webkit-scrollbar {
+         width: 10px;
+         height: 8px;
+     }
 
 
-.container-position::-webkit-scrollbar-thumb {
-    background: #89BCD9; 
-    border-radius: 10px;
-}
+     .container-position::-webkit-scrollbar-track {
+         background: #1E252B;
+         border-radius: 10px;
+     }
 
 
-}
+     .container-position::-webkit-scrollbar-thumb {
+         background: #89BCD9;
+         border-radius: 10px;
+     }
 
-@media (max-width: 450px) {
-    .txt-container img{
-        width:300px;
-    }
 
-    .container-position{
-        width:300px;
-    }
-}
+ }
+
+ @media (max-width: 450px) {
+     .txt-container img {
+         width: 300px;
+     }
+
+     .container-position {
+         width: 300px;
+     }
+ }

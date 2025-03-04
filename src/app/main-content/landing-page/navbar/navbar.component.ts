@@ -16,11 +16,23 @@ export class NavbarComponent {
 
   setActive(link: string) {
     this.activeLink = link;
+    this.scrollToSection(link);
   }
   constructor(private translate: TranslateService) {}
   changeLanguage(language: string){
     this.activeLanguage = language;
     this.translate.use(language);
   }
+
+  scrollToSection(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(() => {
+          window.scrollBy(0, -80); 
+        }, 500);
+    }
+  }
+
  
 }

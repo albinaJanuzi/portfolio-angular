@@ -34,5 +34,8 @@ export class LandingPageComponent {
     changeLanguage(language: string){
       this.translate.use(language);
     }
+
+    
+    
 }
 

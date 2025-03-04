@@ -22,7 +22,7 @@ export class ContactComponent {
   showSuccessMessage = false; // Für das Dialogfenster
 
   post = {
-    endPoint: 'http://albina-januzi.de/sendMail.php',
+    endPoint: 'https://albina-januzi.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
