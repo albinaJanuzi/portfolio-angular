@@ -2,9 +2,22 @@
     <h1>{{ 'why-me.title' | translate }}</h1>
     <div class="whyme-content">
         <div class="location">
-            <img src="assets/img/why-me-img/location-icon.svg" alt="Location">
-            <span><span class="highlight">{{ 'why-me.i-am' | translate }} </span>{{ 'why-me.located' | translate }}..|</span>
-        </div>
+            <div class="fade-in fade-in-first">
+              <img src="assets/img/why-me-img/location-icon.svg" alt="Location" />
+              <span>
+                <span class="highlight">{{ 'why-me.i-am' | translate }}</span>
+                {{ 'why-me.located' | translate }}..|
+              </span>
+            </div>
+          
+            <div class="fade-in fade-in-second">
+              <img src="assets/img/why-me-img/location-icon.svg" alt="Location" />
+              <span>
+                <span class="highlight">{{ 'why-me.i-am' | translate }}</span>
+                {{ 'why-me.open-to-work' | translate }}
+              </span>
+            </div>
+          </div>
 
         <div class="txt-content">
             <p>{{ 'why-me.coding' | translate }}</p>

@@ -18,7 +18,7 @@ h1 {
 
 .whyme-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
     margin: auto; 
@@ -82,8 +82,47 @@ a{
     color:#89BCD9;
 }
 
+.fade-in {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: fadeInOut 1.5s ease-in-out infinite; /* Endlos wiederholen und gleichmäßige Übergänge */
+}
 
 
+.fade-in-first,
+.fade-in-second {
+    opacity: 0;
+}
+  
+.fade-in-first {
+    animation: fadeIn 8s ease-in-out infinite; /* Einblenden */
+}
+
+.fade-in-second {
+    animation: fadeOut 8s ease-in-out infinite; /* Ausblenden */
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+  
 @media (max-width:930px){
 
     .whyme-content{

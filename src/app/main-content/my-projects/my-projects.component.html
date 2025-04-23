@@ -7,8 +7,7 @@
                 Loco
             </li>
             <li (click)="setActiveSection('join')" [class.active]="activeSection === 'join'">2. Join</li>
-            <li (click)="setActiveSection('ongoing-project')" [class.active]="activeSection === 'ongoing-project'">
-                4.Ongoing Project</li>
+            
         </ul>
     </nav>
 
@@ -84,7 +83,7 @@
                             <p>{{ 'my-projects.duration' | translate }}</p>
                         </div>
                         <div class="projekt-info-txt">
-                            <p>{{ 'my-projects.elPolloLoco-about' | translate }}</p>
+                            <p>{{ 'my-projects.join-about' | translate }}</p>
                         </div>
                     </div>
 
@@ -94,7 +93,7 @@
                             <h3>{{ 'my-projects.organised' | translate }}</h3>
                         </div>
                         <div class="projekt-info-txt">
-                            <p>{{ 'my-projects.elPolloLoco-organised' | translate }}</p>
+                            <p>{{ 'my-projects.join-organised' | translate }}</p>
                         </div>
 
                     </div>
@@ -105,7 +104,7 @@
                             <h3>{{ 'my-projects.learn' | translate }}</h3>
                         </div>
                         <div class="projekt-info-txt">
-                            <p>{{ 'my-projects.elPolloLoco-learn' | translate }}</p>
+                            <p>{{ 'my-projects.join-learn' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -130,9 +129,6 @@
 
 
 
-        <section [class.active]="activeSection === 'ongoing-project'">
-            <h3>Ongoing Project</h3>
-            <p>Ein aktuelles Projekt, an dem ich gerade arbeite.</p>
-        </section>
+   
     </div>
 </div>

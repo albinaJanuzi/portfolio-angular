@@ -4,7 +4,8 @@
     "i-am": "Ich befinde",
     "located": "mich in Bonn",
     "coding": "Coding ist mehr als nur das Schreiben von Code – es geht darum, Probleme zu lösen und etwas aus dem Nichts zu erschaffen. Es fordert mich heraus, analytisch zu denken, dranzubleiben und Ideen in die Realität umzusetzen.",
-    "button": "Lass uns reden"
+    "button": "Lass uns reden",
+    "open-to-work": " offen für Remote-Arbeit."
   },
   "landing-page": {
     "title": "Frontend Entwickler"
@@ -21,7 +22,11 @@
     "text": "Ich bin motiviert, meine Fähigkeiten zu verbessern, innovative Lösungen zu erkunden und mit neuen Technologien auf dem neuesten Stand zu bleiben. Derzeit lerne ich React und Vue.js und wende mein Wissen in Projekten an."
   },
   "feedback": {
-    "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich gesagt haben:"
+    "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich gesagt haben:",
+    "catalina-feedback": "Albina ist ein äußerst wertvolles Teammitglied. Obwohl sie während unseres Kurses bei der DA gearbeitet hat, war sie eine der effizientesten Teilnehmerinnen – sowohl im Kurs als auch in unserem Projekt Join. Sie hat vollständige Features wie die Sidebar entwickelt und dabei starke Fähigkeiten im Routing und in der Responsivität gezeigt. Ich würde jederzeit gerne wieder mit ihr zusammenarbeiten.",
+  "project-name": "Projekt",
+  "barbora-feedback": "Albina arbeitet oft im Hintergrund und verfolgt dabei eine ruhige, aber sehr effektive Herangehensweise. Sie übernimmt bereitwillig komplexe Aufgaben und löst diese selbstständig. Auch wenn sie selbst nur wenige Meetings benötigt, ist sie jederzeit bereit zu helfen, wo immer es nötig ist, um das gemeinsame Ziel des Teams zu erreichen. Es war eine Freude, mit ihr zusammenzuarbeiten!",
+  "caryen-feedback": "Albina ist eine zuverlässige und effiziente Kollegin, die die Sidebar, Router-Links und das Hinzufügen von Aufgaben mit großer Sorgfalt und viel Liebe zum Detail umgesetzt hat. Ihre durchdachten und sauber ausgearbeiteten Designs waren stets präzise. Sie war sehr unterstützend und eine wahre Freude in der Zusammenarbeit – eine unglaublich wertvolle Bereicherung für das Team."
   },
   "contact": {
     "title": "Kontakt",
@@ -41,9 +46,12 @@
   "organised": "So habe ich meinen Arbeitsprozess organisiert",
   "experience": "Meine Erfahrung in der Gruppenarbeit",
   "learn":"Was ich gelernt habe",
-  "elPolloLoco-about": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Endboss Chicken und die Small Chickens zu kämpfen.",
+  "elPolloLoco-about": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf El Pollo Loco, Münzen und Falschen zu sammeln, um gegen den Endboss Chicken und die Small Chickens zu kämpfen. ",
   "elPolloLoco-organised":"Um dieses Jump-and-Run-Spiel zu entwickeln, habe ich einen strukturierten und organisierten Workflow verfolgt. Ich habe einen objektorientierten Ansatz verwendet, um den Code sauber, modular und leicht wartbar zu halten. Jedes Spielelement, wie der Spieler, die Gegner und die sammelbaren Objekte, wurde als eigene Klasse implementiert, um Wiederverwendbarkeit zu gewährleisten. Zudem habe ich einen schrittweisen Entwicklungsprozess befolgt, beginnend mit den Kernmechaniken, gefolgt von Animationen, Kollisionserkennung und Spiel-Logik. Durch regelmäßiges Testen und Debuggen konnte ich das Gameplay optimieren und Fehler effizient beheben. Dieser strukturierte Ansatz sorgte für einen reibungslosen und gut organisierten Entwicklungsprozess.",
-  "elPolloLoco-learn":"Während der Entwicklung dieses Spiels habe ich wertvolle Erfahrungen in objektorientierter Programmierung und Spieleentwicklung gesammelt. Ich habe gelernt, wie man sauberen und wartbaren Code strukturiert, Animationen implementiert und Kollisionserkennung effektiv umsetzt. Durch Debugging und Testing habe ich die Bedeutung der Feinabstimmung des Gameplays für ein reibungsloses Spielerlebnis erkannt. Insgesamt hat dieses Projekt meine Programmierfähigkeiten und mein Problemlösungsvermögen verbessert."
+  "elPolloLoco-learn":"Während der Entwicklung dieses Spiels habe ich wertvolle Erfahrungen in objektorientierter Programmierung und Spieleentwicklung gesammelt. Ich habe gelernt, wie man sauberen und wartbaren Code strukturiert, Animationen implementiert und Kollisionserkennung effektiv umsetzt. Durch Debugging und Testing habe ich die Bedeutung der Feinabstimmung des Gameplays für ein reibungsloses Spielerlebnis erkannt. Insgesamt hat dieses Projekt meine Programmierfähigkeiten und mein Problemlösungsvermögen verbessert.",
+  "join-about":"Ein Aufgabenmanager basierend auf dem Kanban-Prinzip. Erstelle und strukturiere Aufgaben per Drag-and-Drop, weise Nutzern und Kategorien zu – für eine übersichtliche und flexible Arbeitsorganisation.",
+  "join-organised":"Um dieses Projekt zu entwickeln, habe ich einen strukturierten und organisierten Workflow verfolgt. Ich habe das Kanban-Prinzip als Grundlage verwendet, um Aufgaben zu erstellen und zu organisieren. Die Implementierung von Drag-and-Drop-Funktionen ermöglichte eine intuitive Benutzeroberfläche. Ich habe auch ein sauberes und wartbares Design verfolgt, indem ich Komponenten erstellt habe, die wiederverwendbar sind. Regelmäßige Tests und Feedback-Runden halfen mir, das Projekt kontinuierlich zu verbessern.",
+  "join-learn":"Während der Entwicklung dieses Projekts habe ich wertvolle Erfahrungen in der Frontend-Entwicklung und im Umgang mit Drag-and-Drop-Funktionen gesammelt. Wir haben Trello genutzt, um Aufgaben zu verteilen und eine saubere Aufgabenstruktur zu schaffen, was für eine effektive Zusammenarbeit im Team entscheidend war."
 },
 "privacy-policy": {
   "privacyPolicy": "Datenschutzerklärung",

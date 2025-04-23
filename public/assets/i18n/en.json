@@ -1,109 +1,109 @@
 {
-    "why-me": {
-      "title": "Why me",
-      "i-am": "I am",
-      "located": "located in Bonn",
-      "coding": "Coding is more than just writing lines of code—it's about solving problems, creating something from nothing.It challenges me to think analytically, stay persistent, and turn ideas into reality.",
-      "button":"Let´s talk"
-    },
-
-    "landing-page":{
-      "title": "Frontend Developer"
-    },
-
-    "navbar":{
-      "whyme": "Why me",
-      "skills": "Skills",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
-
-    "my-skills":{
-      "title": "My Skills",
-      "learning":"I am currently learning",
-      "text":"I am motivated to improve my skills, explore innovative solutions, and stay up to date with new technologies. Currently, I am learning React and Vue.js and applying my knowledge through projects."
-    },
-
-    "feedback":{
-      "title":"Need a teamplayer? Here what my colleagues said about me"
-    },
-
-    "contact":{
-      "title": "Contact me",
-      "text":"I am always open to exciting job offers and new opportunities where I can contribute my skills. With my experience and passion for well-thought-out, user-friendly applications, I bring real value to any project. Let's create something great together!",
-      "name":"Your Name",
-      "email":"Your Email",
-      "message":"Your Message",
-      "read":"I've read the",
-      "privacy":"privacy policy ",
-      "agree":"and agree to the processing of my data as outlined.",
-      "button":"Send",
-      "successMessage": "E-Mail wurde erfolgreich gesendet!"
-    },
-
-    "my-projects":{
-      "title":"My Projects",
-      "duration":"Duration: 3 weeks",
-      "about":"About the project",
-      "organised":"How I have organised my work process",
-      "experience":"My group work experience",
-      "learn":"What I have learnt",
-      "elPolloLoco-about":"A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the final boss Chicken and the small chickens.",
-      "elPolloLoco-organised":"To develop this jump-and-run game, I followed a structured and organized workflow. I used an object-oriented approach to keep the code clean, modular, and easy to maintain. Each game element, such as the player, enemies, and collectibles, was implemented as separate classes to ensure reusability. I also followed a step-by-step development process, starting with the core mechanics, then adding animations, collision detection, and game logic. Regular testing and debugging helped me refine the gameplay and fix issues efficiently. This structured approach ensured a smooth and well-organized development process.",
-      "elPolloLoco-learn":"During the development of this game, I gained valuable experience in object-oriented programming and game development. I learned how to structure clean and maintainable code, implement animations, and handle collision detection effectively. Debugging and testing taught me the importance of refining gameplay for a smooth user experience. Overall, this project helped me improve my coding skills and problem-solving abilities."
-    },
-
-    "privacy-policy": {
-      "privacyPolicy": "Privacy Policy",
-      "privacyIntro": "Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, [Your Website], and any other platforms we operate.",
-      "infoWeCollect": "Information We Collect",
-      "infoWeCollectDesc": "We collect personal information only when necessary, for example:",
-      "voluntaryData": "When you voluntarily provide data",
-      "automaticData": "Automatically through website interactions",
-      "externalSources": "From external sources when applicable",
-      "howWeUseInfo": "How We Use Your Information",
-      "howWeUseInfoDesc": "We use the collected data to:",
-      "operateWebsite": "Operate and improve our website",
-      "enhanceExperience": "Enhance user experience",
-      "analyzeTraffic": "Analyze website traffic and performance",
-      "developFeatures": "Develop new features and services",
-      "communicateUpdates": "Communicate updates and support",
-      "processTransactions": "Process transactions",
-      "preventFraud": "Prevent fraud",
-      "sharingInfo": "Sharing Your Information",
-      "sharingInfoDesc": "We do not sell or publicly share your data. We may only disclose information when legally required.",
-      "dataRetention": "Data Retention",
-      "dataRetentionDesc": "Your data is stored only as long as necessary to fulfill legal and operational requirements.",
-      "dataRights": "Your Data Protection Rights",
-      "dataRightsDesc": "Depending on your location, you may have the right to:",
-      "accessData": "Access your personal data",
-      "requestCorrection": "Request corrections",
-      "requestDeletion": "Request deletion under certain conditions",
-      "restrictProcessing": "Restrict or object to data processing",
-      "requestTransfer": "Request data transfer",
-      "policyUpdates": "Updates to This Policy",
-      "policyUpdatesDesc": "We may update this Privacy Policy from time to time. Changes take effect when posted on this page.",
-      "contactUs": "Contact Us",
-      "contactUsDesc": "If you have any questions, feel free to contact us:",
-      "goBack": "Go Back"
-    },
-    "legal-notice": {
-      "legalNotice": "Legal Notice",
-      "serviceProviderInfo": "Information about the service provider",
-      "name": "Albina Januzi",
-      "address": "Herrenwiese 12, 53506 Hönningen",
-      "phone": "Phone",
-      "euDisputeResolution": "EU Dispute Resolution",
-      "euDisputeResolutionDesc": "In accordance with the Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation), we would like to inform you about the Online Dispute Resolution (ODR) platform of the European Commission.",
-      "odrPlatform": "Online Dispute Resolution Platform",
-      "complaintsLink": "Consumers can submit complaints via the following link:",
-      "noParticipation": "Our contact details can be found above. However, we are neither willing nor obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
-      "imageContentRights": "Image & Content Rights",
-      "imageRights": "All images, photos, and graphics on this website are copyright protected.",
-      "imageSource": "Image Rights: Developer Academy",
-      "textRights": "All textual content on this website is also protected by copyright.",
-      "sourceNote": "Source: Generated with a legal notice generator and adapted.",
-      "goBack": "Go Back"
-    }
-  
+  "why-me": {
+    "title": "Why me",
+    "i-am": "I am",
+    "located": "located in Bonn",
+    "coding": "Coding is more than just writing lines of code—it's about solving problems, creating something from nothing.It challenges me to think analytically, stay persistent, and turn ideas into reality.",
+    "button": "Let´s talk",
+    "open-to-work": "open to remote work."
+  },
+  "landing-page": {
+    "title": "Frontend Developer"
+  },
+  "navbar": {
+    "whyme": "Why me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "my-skills": {
+    "title": "My Skills",
+    "learning": "I am currently learning",
+    "text": "I am motivated to improve my skills, explore innovative solutions, and stay up to date with new technologies. Currently, I am learning React and Vue.js and applying my knowledge through projects."
+  },
+  "feedback": {
+    "title": "Need a teamplayer? Here what my colleagues said about me",
+    "catalina-feedback": "Albina is a highly valuable team member. Despite working during our course at the DA, she was one of the most efficient participants, both in the course and on our project Join. She developed complete features such as the sidebar and demonstrated strong skills in routing and responsiveness. I would be happy to work with her again.",
+    "project-name": "Project",
+    "barbora-feedback": "Albina often works in the background, taking a quiet yet highly effective approach. She willingly takes on complex tasks and solves them independently. Although she requires few meetings herself, she is always ready to lend a helping hand wherever needed to ensure the entire team reaches its goal. It was a pleasure to work with her!",
+    "caryen-feedback": "Albina is a reliable and efficient colleague who handled the sidebar, router links, and task additions with great care and attention to detail. Her thoughtful and polished designs were always precise. She was highly supportive and a true pleasure to work with, making her an incredibly valuable asset to the team."
+  },
+  "contact": {
+    "title": "Contact me",
+    "text": "I am always open to exciting job offers and new opportunities where I can contribute my skills. With my experience and passion for well-thought-out, user-friendly applications, I bring real value to any project. Let's create something great together!",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "read": "I've read the",
+    "privacy": "privacy policy ",
+    "agree": "and agree to the processing of my data as outlined.",
+    "button": "Send",
+    "successMessage": "E-Mail wurde erfolgreich gesendet!"
+  },
+  "my-projects": {
+    "title": "My Projects",
+    "duration": "Duration: 3 weeks",
+    "about": "About the project",
+    "organised": "How I have organised my work process",
+    "experience": "My group work experience",
+    "learn": "What I have learnt",
+     "elPolloLoco-about": "A simple jump-and-run game based on an object-oriented approach. Help El Pollo Loco collect coins and bottles to fight the final boss Chicken and the small chickens.",
+    "elPolloLoco-organised": "To develop this jump-and-run game, I followed a structured and organized workflow. I used an object-oriented approach to keep the code clean, modular, and easy to maintain. Each game element, such as the player, enemies, and collectibles, was implemented as separate classes to ensure reusability. I also followed a step-by-step development process, starting with the core mechanics, then adding animations, collision detection, and game logic. Regular testing and debugging helped me refine the gameplay and fix issues efficiently. This structured approach ensured a smooth and well-organized development process.",
+    "elPolloLoco-learn": "During the development of this game, I gained valuable experience in object-oriented programming and game development. I learned how to structure clean and maintainable code, implement animations, and handle collision detection effectively. Debugging and testing taught me the importance of refining gameplay for a smooth user experience. Overall, this project helped me improve my coding skills and problem-solving abilities.",
+    "join-about": "A task manager inspired by the Kanban methodology. Create and organize tasks using drag-and-drop functionality, assign users and categories – for a clear and flexible workflow.",
+    "join-organised": "To develop this project, I followed a structured and organized workflow. I used the Kanban methodology as the foundation to create and organize tasks. The implementation of drag-and-drop functionality allowed for an intuitive user interface. I also focused on creating a clean and maintainable design by building reusable components. Regular testing and feedback sessions helped me continuously improve the project.",
+    "join-learn": "During the development of this project, I gained valuable experience in frontend development and working with drag-and-drop functionality. We used Trello to distribute tasks and establish a clear task structure, which was crucial for effective teamwork."
+  },
+  "privacy-policy": {
+    "privacyPolicy": "Privacy Policy",
+    "privacyIntro": "Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, [Your Website], and any other platforms we operate.",
+    "infoWeCollect": "Information We Collect",
+    "infoWeCollectDesc": "We collect personal information only when necessary, for example:",
+    "voluntaryData": "When you voluntarily provide data",
+    "automaticData": "Automatically through website interactions",
+    "externalSources": "From external sources when applicable",
+    "howWeUseInfo": "How We Use Your Information",
+    "howWeUseInfoDesc": "We use the collected data to:",
+    "operateWebsite": "Operate and improve our website",
+    "enhanceExperience": "Enhance user experience",
+    "analyzeTraffic": "Analyze website traffic and performance",
+    "developFeatures": "Develop new features and services",
+    "communicateUpdates": "Communicate updates and support",
+    "processTransactions": "Process transactions",
+    "preventFraud": "Prevent fraud",
+    "sharingInfo": "Sharing Your Information",
+    "sharingInfoDesc": "We do not sell or publicly share your data. We may only disclose information when legally required.",
+    "dataRetention": "Data Retention",
+    "dataRetentionDesc": "Your data is stored only as long as necessary to fulfill legal and operational requirements.",
+    "dataRights": "Your Data Protection Rights",
+    "dataRightsDesc": "Depending on your location, you may have the right to:",
+    "accessData": "Access your personal data",
+    "requestCorrection": "Request corrections",
+    "requestDeletion": "Request deletion under certain conditions",
+    "restrictProcessing": "Restrict or object to data processing",
+    "requestTransfer": "Request data transfer",
+    "policyUpdates": "Updates to This Policy",
+    "policyUpdatesDesc": "We may update this Privacy Policy from time to time. Changes take effect when posted on this page.",
+    "contactUs": "Contact Us",
+    "contactUsDesc": "If you have any questions, feel free to contact us:",
+    "goBack": "Go Back"
+  },
+  "legal-notice": {
+    "legalNotice": "Legal Notice",
+    "serviceProviderInfo": "Information about the service provider",
+    "name": "Albina Januzi",
+    "address": "Herrenwiese 12, 53506 Hönningen",
+    "phone": "Phone",
+    "euDisputeResolution": "EU Dispute Resolution",
+    "euDisputeResolutionDesc": "In accordance with the Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation), we would like to inform you about the Online Dispute Resolution (ODR) platform of the European Commission.",
+    "odrPlatform": "Online Dispute Resolution Platform",
+    "complaintsLink": "Consumers can submit complaints via the following link:",
+    "noParticipation": "Our contact details can be found above. However, we are neither willing nor obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "imageContentRights": "Image & Content Rights",
+    "imageRights": "All images, photos, and graphics on this website are copyright protected.",
+    "imageSource": "Image Rights: Developer Academy",
+    "textRights": "All textual content on this website is also protected by copyright.",
+    "sourceNote": "Source: Generated with a legal notice generator and adapted.",
+    "goBack": "Go Back"
   }
+}
